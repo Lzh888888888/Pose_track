@@ -1,5 +1,5 @@
 Made by bolt.new AI:https://bolt.new/  
-Use python program language  
+後續有利用Cursor debug.  
 利用電腦螢幕擷取畫面來快速追蹤手部及身體  
 使用方式:  
 1.執行main.py  
