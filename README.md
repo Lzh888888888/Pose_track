@@ -22,7 +22,7 @@
 
 1. 克隆此專案到本地：
 ```bash
-git clone [專案網址]
+git clone https://github.com/Lzh888888888/Pose_track.git
 ```
 
 2. 安裝所需套件：
