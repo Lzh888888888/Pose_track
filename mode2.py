@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-from hand_detector import HandDetector
 from pose_detector import PoseDetector
 from screen_capture import ScreenCapture
 from video_recorder import VideoRecorder
@@ -10,7 +9,6 @@ from config import ensure_video_path
 def main():
     # 初始化檢測器和螢幕擷取
     screen_capture = ScreenCapture()
-    hand_detector = HandDetector()
     pose_detector = PoseDetector()
     ui_controls = UIControls()
     
@@ -48,17 +46,14 @@ def main():
                 
             original_frame = frame.copy()
             
-            # 進行手部和姿態檢測
-            hand_results = hand_detector.process_frame(frame)
+            # 進行姿態檢測
             pose_results = pose_detector.process_frame(frame)
             
             # 在原始影像上繪製
-            hand_detector.draw_landmarks(original_frame, hand_results)
             pose_detector.draw_landmarks(original_frame, pose_results)
             
             # 在黑色背景上繪製骨架
             skeleton_frame = np.zeros(frame.shape, dtype=np.uint8)
-            hand_detector.draw_landmarks(skeleton_frame, hand_results, draw_on_black=True)
             pose_detector.draw_landmarks(skeleton_frame, pose_results, draw_on_black=True)
             
             # 如果正在錄製，寫入影片
