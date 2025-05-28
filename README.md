@@ -88,17 +88,10 @@ python mode2.py
 
 ### 程式處理效果
 #### 原始影片追蹤效果
-<<<<<<< HEAD
 https://github.com/user-attachments/assets/da4e8330-f06f-4fc3-b760-45dbd0cede69
 
 #### 純骨架視圖效果
 https://github.com/user-attachments/assets/0a273f17-56cf-4701-8952-8cd63c869b79
-=======
-https://github.com/user-attachments/assets/99d633c6-cdfc-472e-a8f0-0b8ea6e5faa9
-
-#### 純骨架視圖效果
-https://github.com/user-attachments/assets/e8b89f8a-44b9-4f61-8a8e-b5db32c62065
->>>>>>> bffc5d8081fad344c3be72f6c700ca770b97a0a0
 
 > **備註**：
 > - 演示影片來源：[YouTube Short](https://youtube.com/shorts/Sk0zEGuRKkE)
