@@ -88,10 +88,10 @@ python mode2.py
 
 ### 程式處理效果
 #### 原始影片追蹤效果
-https://github.com/Lzh888888888/Demo/original_demo.mp4
+https://github.com/user-Lzh888888888/Demo/original_demo.mp4
 
 #### 純骨架視圖效果
-https://github.com/Lzh888888888/Demo/skeleton_demo.mp4
+https://github.com/user-Lzh888888888/Demo/skeleton_demo.mp4
 
 > **備註**：
 > - 演示影片來源：[YouTube Short](https://youtube.com/shorts/Sk0zEGuRKkE)
