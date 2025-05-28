@@ -82,6 +82,18 @@ python mode2.py
 - 螢幕錄影時，選擇較小的區域可提升效能
 - 影片分析時，可考慮降低輸入影片解析度
 
+## 演示效果
+
+以下演示影片使用本工具進行姿勢追蹤分析：
+
+### 原始影片追蹤效果
+影片位置：[Demo/original_demo.mp4](Demo/original_demo.mp4)
+
+### 純骨架視圖效果
+影片位置：[Demo/skeleton_demo.mp4](Demo/skeleton_demo.mp4)
+
+> **備註**：演示影片使用的原始素材來源：[YouTube Short - Dance Video](https://youtube.com/shorts/Sk0zEGuRKkE)
+
 ## 授權說明
 
 本專案採用 MIT 授權條款。
