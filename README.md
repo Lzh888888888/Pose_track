@@ -86,18 +86,15 @@ python mode2.py
 
 以下演示影片使用本工具進行姿勢追蹤分析：
 
-### 原始效果影片
-[![姿勢追蹤演示](https://img.youtube.com/vi/Sk0zEGuRKkE/0.jpg)](https://youtube.com/shorts/Sk0zEGuRKkE)
-
 ### 程式處理效果
 #### 原始影片追蹤效果
-![原始影片追蹤效果](Demo/original_demo.mp4)
+https://github.com/user-attachments/Demo/original_demo.mp4
 
 #### 純骨架視圖效果
-![純骨架視圖效果](Demo/skeleton_demo.mp4)
+https://github.com/user-attachments/Demo/skeleton_demo.mp4
 
 > **備註**：
-> - 演示影片來源：[YouTube Short - Dance Video](https://youtube.com/shorts/Sk0zEGuRKkE)
+> - 演示影片來源：[YouTube Short](https://youtube.com/shorts/Sk0zEGuRKkE)
 > - 使用本工具分析處理後可產生原始追蹤和骨架視圖兩種效果
 
 ## 授權說明
